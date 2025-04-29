@@ -1,0 +1,106 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h1{
+    text-align: center;
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 25px;
+}
+
+.card ul{
+    padding-left:22px;}
+
+.card li {
+    margin-top: 15px;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.card li::marker {
+    font-size: 20px;
+    color: #E7AB46;
+}
+
+ol.steps {
+    padding-left: 14px;
+}
+
+
+
+
+.button-3 {
+  margin-left: 35%;  
+  height: 45px;  
+  appearance: none;
+  background-color: #E7AB46;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;    
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: background-color 1s;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #cc9841;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
